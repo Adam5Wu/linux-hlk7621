@@ -14,3 +14,13 @@ config DTB_GNUBEE2
 	depends on SOC_MT7621 && DTB_RT_NONE
 	select BUILTIN_DTB
 
+config DTB_HLK7621A
+	bool "HLK-7621A"
+	depends on SOC_MT7621 && DTB_RT_NONE
+	select BUILTIN_DTB
+
+config DTB_HLK7621A_UBOOT
+	bool "HLK-7621A - with dual u-boot"
+	depends on SOC_MT7621 && DTB_RT_NONE
+	select BUILTIN_DTB
+
