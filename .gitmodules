@@ -1,0 +1,3 @@
+[submodule "drivers/staging/mtd-rw"]
+	path = drivers/staging/mtd-rw
+	url = https://github.com/jclehner/mtd-rw.git
